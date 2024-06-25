@@ -1,0 +1,174 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    background-image: url(./imagenes/fondo1.jpg);
+    background-size: cover;
+}
+
+ul{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-around;
+}
+a{
+    font-size: 1rem;
+}
+
+.sobremi {
+     margin-top: 10rem;
+     margin-bottom: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+}
+.sobremifoto{
+   margin-top: 5rem;
+   max-width: 50%;
+   display: flex;
+   justify-content: space-around;
+    
+}
+#fotonico{
+    max-width: 50%;
+    margin-right: 5rem;
+    height: 30rem;
+    border-radius: 2rem;
+}   
+p{
+  margin-top: 6rem;
+  max-width: 50%;
+  font-size: 1rem;
+}
+
+.miprimeraweb{
+    margin-top: 1rem;
+    margin-bottom: 5rem;
+    padding: 1rem;
+}
+
+.mistecnologias{
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+    padding: 1rem;
+}
+.misact{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+
+.formulario{
+    padding-top: 5rem;
+}
+
+
+
+h1,h2,h3 {
+    text-align: center;
+    
+    padding: 1.5rem; 
+}
+h1{
+    font-size: 2rem;
+}
+h2{
+  font-size:   1.5rem;
+}
+
+ul,
+a{  text-decoration: none;
+    list-style: none;
+    color: black
+}
+
+
+li:hover,
+a:hover{
+color: rgb(71, 122, 189);
+}
+
+
+img{
+    width: 25rem;
+    height: 12rem;
+}
+.imagin:hover{
+    transition: 0.3s ease;
+    transform: scale(1,1.15);
+}
+
+input,
+textarea{
+    width: 45rem;
+    height: 3rem;
+   display: block;
+   margin: 2rem;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-size: 1rem;
+   background-color: white;
+  color: black;
+   border-radius: 1rem;
+   border: solid 2px black;
+}
+#submit{
+    width: fit-content;
+   
+    
+}
+form{
+display: inline-block;
+}
+   
+
+.titulo
+.descripcion{
+    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(242, 250, 215);
+    
+}
+.titulo{
+    padding: 0.5rem;
+    width: fit-content;
+    background-color: rgb(117, 107, 107);
+    border: solid 3px rgb(17, 15, 153);
+    border-radius: 1rem; 
+}
+.descripcion{
+    margin: 0.5rem;
+    width: fit-content;
+    background-color: rgb(117, 107, 107);
+    border: solid 3px rgb(17, 15, 153);
+    border-radius: 1rem; 
+}
+.imagen{
+    
+    padding: 0.5rem;
+    border: solid 3px rgb(17, 15, 153);
+    border-radius: 1rem;
+}
+.tarjeta{
+
+    margin: 0.5rem;
+    padding: 0.5rem;
+    height: fit-content;
+    width: fit-content;
+    background-color: rgba(82, 62, 62, 0);
+    border: solid 3px black;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+#contenedordetarjetas{
+    display: flex;
+    flex-wrap: wrap;
+    width: 75vw;
+    justify-content: center;
+    margin: 1rem auto; 
+    background-color: rgb(117, 107, 107);
+    border-radius: 1rem; 
+}
